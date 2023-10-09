@@ -54,7 +54,7 @@ function AuthComponent() {
     <div className="bg-blue-100 min-h-screen flex justify-center items-center">
       <div className="bg-white rounded-lg shadow-md p-8 w-96 text-center">
         <h1 className="text-2xl font-semibold text-blue-600">GRABZZZ</h1>
-        <span className="text-4xl font-bold text-blue-600">G</span>
+        <span className="text-4xl font-bold text-blue-600"></span>
         <h1 className="text-2xl font-semibold text-blue-600">{isLoginForm ? 'Login' : 'Sign Up'}</h1>
         {isLoginForm ? (
           <form className="text-left" onSubmit={handleSubmit}>
